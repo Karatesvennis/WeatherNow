@@ -3,7 +3,7 @@ html {
     font-size: 80%;
     font-family: Arial, Helvetica, sans-serif;
 
-    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(hill-2165759_1280.jpg), no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(/hill-2165759_1280.jpg), no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
