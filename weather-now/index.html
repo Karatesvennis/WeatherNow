@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>WeatherNow // Get the latest weather</title>
+    </head>
+
+    <body>
+        <h1 class="main-header">Welcome to WeatherNow!</h1>
+
+        <div class="sub-header">Courtesy of MetaWeather.com</div>
+
+        <div class="search-form">
+            <h2>Get your 3-day forecast</h2>
+            <form>
+                <input type="text" class="search-field" onfocus="this.value=''" value="Enter location...">
+                <input type="submit" value="WeatherNow">
+            </form>
+        </div>
+
+        <div class="result-panel">
+            <div class="result-header">
+                <h3 id="location">Location</h3>
+            </div>
+            <div class="result-day day-0">
+                <h4 class="day-header">Day 1</h4>
+                <!-- <link rel="icon" href="" class="weather-icon"> -->
+                <ul>
+                    <li class="result-weather-condition">Weather Condition</li>
+                    <li class="result-temperature">Temperature min and max</li>
+                    <li class="result-wind">Wind speed</li>
+                </ul>
+            </div>
+            <div class="result-day day-1">
+                <h4 class="day-header">Day 2</h4>
+                <!-- <link rel="icon" href="" class="weather-icon"> -->
+                <ul>
+                    <li class="result-weather-condition">Weather Condition</li>
+                    <li class="result-temperature">Temperature min and max</li>
+                    <li class="result-wind">Wind speed</li>
+                </ul>
+            </div>
+            <div class="result-day day-2">
+                <h4 class="day-header">Day 3</h4>
+                <!-- <link rel="icon" href="" class="weather-icon"> -->
+                <ul>
+                    <li class="result-weather-condition">Weather Condition</li>
+                    <li class="result-temperature">Temperature min and max</li>
+                    <li class="result-wind">Wind speed</li>
+                </ul>
+            </div>
+
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+
+
+</html>

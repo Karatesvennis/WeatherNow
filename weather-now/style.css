@@ -1,0 +1,70 @@
+html {
+    box-sizing: border-box;
+    font-size: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url(img/hill-2165759_1280.jpg), no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+.main-header {
+    font-size: 400%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-header {
+    text-align: center;
+}
+
+.search-form {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.result-panel {
+    background: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 150%;
+    height: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fade {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.result-header {
+    padding-top: 40px;
+    font-size: 200%;
+}
+
+.result-day {
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.result-day li {
+    text-align: left;
+}
