@@ -1,0 +1,2 @@
+# WeatherNow
+Simple weather app
